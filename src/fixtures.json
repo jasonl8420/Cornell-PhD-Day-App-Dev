@@ -1,0 +1,1549 @@
+{
+    "events": {
+        "welcome-address": {
+            "recommended": false,
+            "name": "Welcome Address",
+            "weather_img": "weather-cloudy.svg",
+            "location": "Statler",
+            "order": 1,
+            "date": "3/13/23",
+            "start_time": "10:00am",
+            "end_time": "10:30am",
+            "stu_num": 8,
+            "facul_num": 2,
+            "tags": [
+                "HCI",
+                "HRI"
+            ],
+            "description": "For your project’s implementation milestone, you’ll need to create a Vue.js app from scratch with multiple views and employ prototyping techniques like data fixtures. In this homework, you’ll prepare for the implementation milestone by creating a Vue PWA from scratch, use Vue routing to support multiple pages, and practice using mock-data (data fixtures) to “fake out” a REST API."
+        },
+        "lab-visit": {
+            "recommended": true,
+            "name": "Lab Visit",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates",
+            "order": 3,
+            "date": "3/13/23",
+            "start_time": "1:30pm",
+            "end_time": "2:30pm",
+            "stu_num": 13,
+            "facul_num": 5,
+            "tags": [
+                "Health Tech",
+                "Rapid Prototyping",
+                "Interactive Design"
+            ],
+            "description": "Tip: Commit and push your changes every time you work on your project. Every time you commit and push you store your changes on the GitHub server. This acts as a back-up for your work. It also means that if you forget to submit before the deadline, there’s something already on the server that we can grade."
+        },
+        "office-hours-mimno": {
+            "recommended": true,
+            "name": "Professor Mimno's Office Hours",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates 101",
+            "order": 4,
+            "date": "3/13/23",
+            "start_time": "1:30pm",
+            "end_time": "2:30pm",
+            "stu_num": 13,
+            "facul_num": 1,
+            "tags": [
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Big Data"
+            ],
+            "description": "Office Hours for Professor David Mimno's research group. Feel free to drop in if you have any questions about our research or the lab!"
+        },
+        "dean-chat": {
+            "recommended": false,
+            "name": "Chat with the Dean",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates 123",
+            "order": 12,
+            "date": "3/13/23",
+            "start_time": "2:45pm",
+            "end_time": "3:45pm",
+            "stu_num": 21,
+            "facul_num": 1,
+            "tags": [
+                "Networking"
+            ],
+            "description": "Join us for a speech and q&a session with CIS Dean, Kavita Bala!"
+        },
+        "office-hours-jung": {
+            "recommended": true,
+            "name": "Professor Jung's Office Hours",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates 201",
+            "order": 5,
+            "date": "3/14/23",
+            "start_time": "9:30pm",
+            "end_time": "10:30pm",
+            "stu_num": 14,
+            "facul_num": 1,
+            "tags": [
+                "Human Computer Interaction",
+                "Deep Learning",
+                "Robots"
+            ],
+            "description": "Office Hours for Professor Malte Jung's research group. Feel free to drop in if you have any questions about our research or the lab!"
+        },
+        "office-hours-kleinberg": {
+            "recommended": true,
+            "name": "Professor Kleinberg's Office Hours",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates 231",
+            "order": 6,
+            "date": "3/14/23",
+            "start_time": "1:30pm",
+            "end_time": "2:30pm",
+            "stu_num": 20,
+            "facul_num": 1,
+            "tags": [
+                "Networks",
+                "Social Media",
+                "Economics"
+            ],
+            "description": "Office Hours for Professor Jon Kleinberg's research group. Feel free to drop in if you have any questions about our research or the lab!"
+        },
+        "office-hours-levy": {
+            "recommended": false,
+            "name": "Professor Levy's Office Hours",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates 331",
+            "order": 7,
+            "date": "3/14/23",
+            "start_time": "2:45pm",
+            "end_time": "3:45pm",
+            "stu_num": 21,
+            "facul_num": 1,
+            "tags": [
+                "Privacy",
+                "Cybersecurity",
+                "Trucking"
+            ],
+            "description": "Office Hours for Professor Karen Levy's research group. Feel free to drop in if you have any questions about our research or the lab!"
+        },
+        "lunch": {
+            "recommended": true,
+            "name": "Broadening Participation Lunch",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates Atrium",
+            "order": 8,
+            "date": "3/14/23",
+            "start_time": "4:00pm",
+            "end_time": "5:00pm",
+            "stu_num": 17,
+            "facul_num": 1,
+            "tags": [
+                "Networking"
+            ],
+            "description": "Join us for a lunch hour with catered food and drink to connect with CIS faculty!"
+        },
+        "student-panel": {
+            "recommended": true,
+            "name": "PhD Student Panel",
+            "weather_img": "weather-sunny.svg",
+            "location": "Gates B01",
+            "order": 9,
+            "date": "3/14/23",
+            "start_time": "5:15pm",
+            "end_time": "5:45pm",
+            "stu_num": 18,
+            "facul_num": 5,
+            "tags": [
+                "Networking"
+            ],
+            "description": "Learn about current student experiences and ask any questions that you've got!"
+        },
+        "botanical": {
+            "recommended": false,
+            "name": "Botanical Gardens Tour",
+            "weather_img": "weather-sunny.svg",
+            "location": "Botanical Gardens",
+            "order": 10,
+            "date": "3/14/23",
+            "start_time": "5:50pm",
+            "end_time": "6:50pm",
+            "stu_num": 21,
+            "facul_num": 2,
+            "tags": [
+                "Tours"
+            ],
+            "description": "Get a guided tour of the Cornell Botanical Gardens!"
+        }
+    },
+    "local_tips": {
+        "localtips1": {
+            "name": "HaKaCha Restaurant",
+            "img": [
+                "hakacha1.jpg",
+                "hakacha2.jpg",
+                "hakacha3.jpg",
+                "hakacha4.jpeg"
+            ],
+            "info": "Located in Ithaca, New York, the HaKaCha Restaurant is a popular dining destination that offers a unique fusion of Japanese, Thai, and Chinese cuisines. Its diverse menu caters to different taste preferences and is made with high-quality ingredients, resulting in creative dishes that are sure to please. Known for its excellent service and cozy atmosphere, HaKaCha has become a favorite among locals and tourists alike, providing a memorable dining experience for any occasion.",
+            "tags": [
+                "Dine-in",
+                "Ramen",
+                "Pasta",
+                "$$"
+            ]
+        },
+        "localtips2": {
+            "name": "Le Cafe Cent-Dix",
+            "img": [
+                "cafe1.jpg",
+                "cafe2.jpg",
+                "cafe3.jpg",
+                "cafe4.png"
+            ],
+            "info": "Le Café Cent-Dix is a French-inspired café located in the heart of downtown Ithaca, New York, on 110 N Aurora St. The café offers a cozy and intimate atmosphere, perfect for enjoying a cup of coffee, a light meal, or a sweet treat. The menu features a variety of French-inspired dishes, including quiches, sandwiches, and salads, as well as a selection of pastries and desserts. With its warm and welcoming ambiance, Le Café Cent-Dix is a popular spot for both locals and tourists looking for a taste of France in Ithaca.",
+            "tags": [
+                "French",
+                "Dine-in",
+                "$$$"
+            ]
+        },
+        "localtips3": {
+            "name": "Flat Rock",
+            "img": [
+                "flatrock2.jpg",
+                "flatrock1.jpg",
+                "flatrock3.jpg",
+                "flatrock4.jpg"
+            ],
+            "info": "Flat Rock is one of those hidden gems in Ithaca that not a lot of people know about. It's a great spot for a quick hike or a picnic with friends. The trail to the rock is relatively easy and well-maintained, so it's a perfect spot for beginners. The best part is the view you get once you reach the top - it's simply breathtaking! You can see for miles and miles over the rolling hills and the sparkling waters of Cayuga Lake. It's a peaceful spot to take in the natural beauty of Ithaca and escape from the hustle and bustle of the city.",
+            "tags": [
+                "Sightseeing",
+                "Outdoor",
+                "Nature",
+                "Hiking"
+            ]
+        },
+        "localtips4": {
+            "name": "Ithaca Farmers Market",
+            "img": [
+                "farmers2.jpg",
+                "farmers4.jpg",
+                "farmers1.jpg",
+                "farmers3.jpg"
+            ],
+            "info": "The Ithaca Farmers Market is a must-visit spot for anyone who loves fresh, locally sourced food and supporting local farmers and artisans. The market is open every Saturday and Sunday. You'll find everything from fresh produce and meats to artisanal cheeses and baked goods, as well as handmade crafts and jewelry. The vendors are friendly and knowledgeable, and they love to chat with customers about their products and even share cooking tips and recipes. There's always something new to discover at the market, whether it's a new type of cheese or a unique craft item. The best part is that you're supporting local businesses and farmers while enjoying delicious, fresh food. So grab a coffee and some breakfast, and spend a leisurely morning at the Ithaca Farmers Market.",
+            "tags": [
+                "Local Businesses",
+                "Market",
+                "Fresh Goods",
+                "Fresh Food"
+            ]
+        },
+        "localtips5": {
+            "name": "Buttermlik Falls State Park",
+            "img": [
+                "buttermilk4.jpg",
+                "buttermilk2.jpg",
+                "buttermilk3.jpg",
+                "buttermilk1.jpg"
+            ],
+            "info": "The park's main attraction is its stunning waterfall, which cascades down several levels and creates pools for swimming and lounging. The hiking trails are well-maintained and offer a range of difficulty levels, from easy walks to steep climbs. There are also plenty of picnic spots and grilling areas throughout the park, making it a perfect spot for a family day out or a BBQ with friends. The park can get crowded during peak season, so it's best to arrive early if you want to snag a good spot. But even if it's busy, there's enough space to spread out and find a little peace and quiet.",
+            "tags": [
+                "Outdoor",
+                "Nature",
+                "Hiking",
+                "Sightseeing"
+            ]
+        },
+        "localtips6": {
+            "name": "Kitchen Theatre Company",
+            "img": [
+                "theatre1.jpg",
+                "theatre2.jpg",
+                "theatre4.png",
+                "theatre3.jpg"
+            ],
+            "info": "The Kitchen Theatre Company is a cultural hub in downtown Ithaca that showcases some of the best theater productions in the area. The theater is small and intimate, which makes for a really immersive experience. The shows are always well-produced and thought-provoking, with themes that range from funny and light-hearted to deep and meaningful. The staff and performers are friendly and talented, and they often stick around after the show for a Q&A with the audience. It's a great way to connect with the local arts scene and support the creative community in Ithaca.",
+            "tags": [
+                "Performing Arts",
+                "Theater Experience"
+            ]
+        },
+        "localtips7": {
+            "name": "The Greenhouse Cafe & Cocktail Lounge",
+            "img": [
+                "greenhouse1.jpg",
+                "greenhouse2.jpg",
+                "greenhouse3.jpg",
+                "greenhouse4.jpg"
+            ],
+            "info": "The Greenhouse Cafe and Cocktail Lounge is one of my favorite spots to grab a drink or a bite to eat around here. The atmosphere is cozy and inviting, with plants and greenery everywhere that make you feel like you're in a greenhouse. The menu is diverse and has something for everyone, from light bites to hearty meals. Their cocktails are creative and delicious, and the staff is friendly and knowledgeable about their drink offerings. It's also a great spot for live music and events, with a small stage that hosts local musicians and performers. The Greenhouse is a perfect place for a date night, a night out with friends, or a solo adventure with a book and a drink. So if you're looking for a chill spot to relax and unwind, you should definitely check out The Greenhouse Cafe and Cocktail Lounge in Ithaca.",
+            "tags": [
+                "Taps/Small Plates",
+                "Cocktail Bars",
+                "$$"
+            ]
+        },
+        "localtips8": {
+            "name": "Cayuga Lake",
+            "img": [
+                "cayuga1.jpg",
+                "cayuga2.jpg",
+                "cayuga3.jpeg",
+                "cayuga4.jpg"
+            ],
+            "info": "The Cascadilla Gorge Trail is undoubtedly one of the most beautiful and serene places in Ithaca. As a local, I can attest to the trail's charm and natural beauty. The trail meanders through a lush green gorge, with waterfalls and unique rock formations around every bend. Walking the trail feels like stepping into a serene natural wonderland. It's an ideal location for anyone looking to escape the hustle and bustle of the city for a few hours, and immerse themselves in the beauty of nature. The trail is well-maintained, with ample rest stops and benches for taking in the stunning views. It's a moderately easy trail, so it's suitable for hikers of all skill levels. The Cascadilla Gorge Trail is the perfect spot to connect with nature, and enjoy a peaceful, rejuvenating outdoor experience.",
+            "tags": [
+                "Outdoor",
+                "Nature",
+                "Scenic",
+                "Activities"
+            ]
+        },
+        "localtips9": {
+            "name": "Cascadilla Gorge Trail",
+            "img": [
+                "cascadilla1.jpg",
+                "cascadilla2.jpg",
+                "cascadilla3.jpg",
+                "cascadilla4.jpg"
+            ],
+            "info": "sdflsldkflasjdfasdlfj",
+            "tags": [
+                "Hiking",
+                "Scenic",
+                "Outdoor",
+                "Nature",
+                "Waterscape"
+            ]
+        },
+        "localtips10": {
+            "name": "Johnson Museum of Art",
+            "img": [
+                "johnson1.jpg",
+                "johnson4.png",
+                "johnson3.jpg",
+                "johnson33.jpg"
+            ],
+            "info": "If you're interested in art and culture, you can't miss the Johnson Museum of Art in Ithaca. The museum's collection includes over 35,000 works of art from around the world, ranging from ancient artifacts to contemporary pieces. The building itself is an architectural marvel, with stunning views of the surrounding area from its top floor. The staff are knowledgeable and friendly, and they often have special exhibits and events throughout the year. The museum is free to the public, which is great for budget-conscious visitors, and it's open seven days a week!",
+            "tags": [
+                "Art Museum",
+                "Public",
+                "Exhibition",
+                "Architecture"
+            ]
+        },
+        "localtips11": {
+            "name": "Ithaca Beer Company",
+            "img": [
+                "beer1.jpg",
+                "beer2.jpg",
+                "beer3.jpg",
+                "beer4.jpg"
+            ],
+            "info": "The Ithaca Beer Company is a must-visit destination for beer enthusiasts. The brewery has a laid-back, inviting atmosphere that is perfect for relaxing with friends and enjoying a few drinks. With ample seating both indoors and outdoors, the brewery has a lively and welcoming vibe. The beer selection is impressive, with a diverse range of options to cater to all tastes, including IPAs, stouts, and other specialty brews. The food menu is also worth noting, featuring delicious pub-style fare that pairs perfectly with the beers on offer.",
+            "tags": [
+                "Beer",
+                "Food",
+                "Scenic",
+                "$$"
+            ]
+        },
+        "localtips12": {
+            "name": "Cornell Botanic Gardens",
+            "img": [
+                "garden3.jpg",
+                "garden1.jpg",
+                "garden4.jpg",
+                "garden2.jpg"
+            ],
+            "info": "As a local, I can attest to the beauty and tranquility of the gardens. The garden is home to an impressive collection of plants and flowers, and the botanical displays are always changing with the seasons. The walking paths are well-maintained and lead visitors through different themed gardens, such as the herb garden, the tropical garden, and the arboretum. The gardens also offer stunning views of the surrounding hills and landscapes, making it a perfect spot to snap a few photos. There are plenty of benches and rest areas throughout the gardens where you can sit and soak up the peaceful ambiance. Overall, the Cornell Botanical Gardens is a must-visit destination for anyone who loves nature, gardens, or just wants a relaxing outdoor experience.",
+            "tags": [
+                "Garden",
+                "Arboretum",
+                "Botanic",
+                "Natural Areas",
+                "Overlooks"
+            ]
+        }
+    },
+        "faculty": {
+            "shiri-azenkot": {
+                "name": "Shiri Azenkot",
+                "subtitle": "Associate Professor, Cornell Tech",
+                "research_areas": [
+                    "HCI",
+                    "Accessibility"
+                ],
+                "email": "shiri.azenkot@cornell.edu",
+                "website": "http://www.shiriazenkot.com/",
+                "img": "azenkot.jpeg",
+                "about": "Shiri Azenkot is an Associate Professor at the Jacobs Technion-Cornell Institute at Cornell Tech, Cornell University, and in the Information Science Department. She is also an affiliate faculty member in the Computer Science Department at the Technion--Israel Institute of Technology. Her research interests are in accessibility and interaction on new platforms. Shiri frequently publishes at top HCI and accessibility conferences, including CHI, ASSETS, UIST, and UbiComp. Currently, her research is funded by the NSF, AOL, Verizon, and Facebook. Before arriving at Cornell Tech, she was a PhD student in Computer Science & Engineering at the University of Washington, where she was advised by Richard Ladner and Jacob Wobbrock. Shiri has received the UW graduate medal (awarded to just one PhD candidate at the university each year), a National Science Foundation Graduate Research Fellowship, and an AT&T Labs Graduate Fellowship.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "larry-blume": {
+                "name": "Larry Blume",
+                "subtitle": "Charles F. and Barbara D. Weiss Director of Undergraduate Studies",
+                "research_areas": [
+                    "Economics & Information",
+                    "Computational Social Science",
+                    "Network Science"
+                ],
+                "email": "lb19@cornell.edu",
+                "website": "http://www.santafe.edu/~leb/",
+                "img": "blume.jpeg",
+                "about": "Lawrence E. Blume is a professor of Information Science and serves as the Charles F. and Barbara D. Weiss Director of Undergraduate Studies. He is also Distinguished Arts & Sciences Professor of Economics. He is a Visiting Research Professor at IHS and a member of the external faculty at the Santa Fe Institute, where he has served as Co-Director of the Economics Program and on the Institute's steering committee. He teaches and conducts research in general equilibrium theory and game theory, as well as income and wealth distribution and network design. A Fellow of the Econometric Society, he received an BA in Economics from Washington University and a PhD in Economics from the University of California, Berkeley. Blume was one of the general editors of The New Palgrave Dictionary of Economics, 2nd edition, to which he contributed several articles on economic theory.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Kleinberg's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel"
+                ]
+            },
+            "claire-cardie": {
+                "name": "Claire Cardie",
+                "subtitle": "Professor, Computer Science",
+                "research_areas": [
+                    "Natural Language Processing"
+                ],
+                "email": "cardie@cs.cornell.edu",
+                "website": "https://www.cs.cornell.edu/home/cardie/",
+                "img": "claire.jpeg",
+                "about": "Claire Cardie is a Professor in the Departments of Computer Science and Information Science. She has a B.S. in Computer Science from Yale, and M.S. and Ph.D. degrees in Computer Science from the University of Massachusetts. Dr. Cardie served as the first Charles and Barbara Weiss Chair of Information Science from 2010-2011. She has broad interests in Natural Language Processing and was selected as a Fellow of the Association for Computational Linguistics in 2015 for foundational contributions to co-reference resolution, information and opinion extraction, and to machine learning methods in natural language processing.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "cristobal-cheyre": {
+                "name": "Cristobal Cheyre",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Critical Data Studies",
+                    "Data Science",
+                    "Economics & Information"
+                ],
+                "email": "cac555@cornell.edu",
+                "website": "https://rene.kizilcec.com/",
+                "img": "cheyre.jpeg",
+                "about": "Cristobal Cheyre joined Cornell Information Science as an Assistant Professor in Fall 2019 after completing a post-doctoral fellowship at Carnegie Mellon University. Cheyre’s research focuses on the economic, strategic, and organizational implications of the technologies that are shaping the data economy. Following completion of his PhD in Engineering and Public Policy from Carnegie Mellon University, he spent two years in Chile as Executive Director of “The Clover 2030 Engineering Strategy”, a strategic initiative to promote entrepreneurship and innovation education, applied research, and technology transfer at the School of Engineering of P. Universidad Catolica de Chile.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "tanzeem-choudhury": {
+                "name": "Tanzeem Choudhury",
+                "subtitle": "Director, People Aware-Computing Group",
+                "research_areas": [
+                    "Interface Design",
+                    "Ubiquitous Computing"
+                ],
+                "email": "tanzeem.choudhury@cornell.edu",
+                "website": "http://www.cs.cornell.edu/~tanzeem/",
+                "img": "choudhury.jpeg",
+                "about": "Tanzeem Choudhury is a professor at the Jacobs Technion-Cornell Institute at Cornell Tech in Information Sciences and a co-founder of HealthRhythms Inc. She directs the People-Aware Computing group, which works on developing machine learning techniques for systems that can reason about human activities, interactions, and social networks in everyday environments.\nDr. Choudhury received her Ph.D. degree from the Media Laboratory at the Massachusetts Institute of Technology (MIT). As part of her doctoral work, she created the sociometer and conducted the first experiment that uses mobile sensors to model social networks, which led to a new field of research referred to as Reality Mining. She holds a B.S. in electrical engineering from the University of Rochester, and M.S. from the MIT Media Laboratory.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "sharlane-cleare": {
+                "name": "Sharlane Cleare",
+                "subtitle": "Lecturer, Information Science",
+                "research_areas": [
+                    "Critical Data Studies",
+                    "HCI",
+                    "Technology & Equity"
+                ],
+                "email": "ssc294@cornell.edu",
+                "website": "https://www.shar-cleare.com",
+                "img": "cleare.jpeg",
+                "about": "Sharlane Cleare is a lecturer in Information Science in the School of Computing and Information Science at Cornell University. Her research focuses on broadening STEM participation for underrepresented people of color by understanding how various learning experiences influence their intent to persist in STEM. \nCleare received a BA in Computer Information Systems from Georgia State University, an MBA from Clark Atlanta University, a Masters in Technology Leadership & Innovation from Purdue University, and a Ph.D. in Technology from Purdue University. Her dissertation focused on dissecting Black women’s experiences in a first-year undergraduate human centered design course.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "chris-csikszentmihalyi": {
+                "name": "Chris Csíkszentmihályi",
+                "subtitle": "Associate Professor, Information Science",
+                "research_areas": [
+                    "Critical Data Studies",
+                    "HCI",
+                    "Technology & Equity"
+                ],
+                "email": "cpc83@cornell.edu",
+                "website": "https://www.edgyproduct.org",
+                "img": "csikszentmihalyi.png",
+                "about": "Chris Csíkszentmihályi is Associate Professor of Information Science at Cornell University. Previously, he was a European Research Area Chair in Portugal, and founded the free/libre Rootio Project, a sociotechnical platform for community radio. Csíkszentmihályi has been a professor at universities in the USA and Europe: notably founding and directing the MIT Center for Future Civic Media (C4), dedicated to developing technologies that strengthen communities, and also the MIT Media Lab's Computing Culture group, creating unique media technologies for cultural and political applications. He has been a Radcliffe Fellow and a Rockefeller New Media Fellow, and has exhibited installations and performed on most continents. He currently sits on the board of the DATACTIVE ERC project at U. Amsterdam and the EPSRC Centre for Doctoral Training in Digital Civics at Newcastle University.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "cristian-danescu": {
+                "name": "Cristian Danescu-Niculescu-Mizil",
+                "subtitle": "Associate Professor, Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Data Science",
+                    "Natural Language Processing",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "cd326@cornell.edu",
+                "website": "https://www.cs.cornell.edu/~cristian/",
+                "img": "cristiandnm.jpeg",
+                "about": "Cristian's research aims at developing computational frameworks that can lead to a better understanding of human social behavior, by unlocking the unprecedented potential of the large amounts of natural language data generated online.   He is the recipient of several awards, including the WWW 2013 Best Paper Award and a Yahoo! Key Scientific Challenges award, and his work has been featured in popular-media outlets such as the New Scientist, NBC's The Today Show, NPR and the New York Times.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "nicola-dell": {
+                "name": "Nicola Dell",
+                "subtitle": "Associate Professor, Cornell Tech",
+                "research_areas": [
+                    "HCI",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work",
+                    "Technology & Equity"
+                ],
+                "email": "nixdell@cornell.edu",
+                "website": "http://www.nixdell.com",
+                "img": "dell.jpg",
+                "about": "Nicola Dell is an Associate Professor at the Jacobs Technion-Cornell Institute at Cornell Tech and in the Information Science Department at Cornell University. Her research spans Human-Computer Interaction (HCI) and Information and Communication Technologies for Development (ICTD) with a focus on designing, building, and evaluating novel computing systems that improve the lives of under-served populations in low income regions.\nNicola’s research and outreach activities have been recognized through several awards and fellowships, including a Graduate Facebook Fellowship and a Google Anita Borg Scholarship.\nShe was born in Zimbabwe and received a B.Sc. in Computer Science from the University of East Anglia (UK) in 2004, an M.S. and Ph.D. in Computer Science and Engineering from the University of Washington in 2011 and 2015 respectively.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "david-easley": {
+                "name": "David Easley",
+                "subtitle": "Henry Scarborough Professor of Social Science and Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Economics & Information",
+                    "Network Science"
+                ],
+                "email": "dae3@cornell.edu",
+                "website": "https://easley.economics.cornell.edu/",
+                "img": "easley.jpeg",
+                "about": "David Easley is the Henry Scarborough Professor of Social Science and is a Professor of Information Science at Cornell University. His research is in the fields of economics, finance and networks. In economics, he and Lawrence Blume work on learning and wealth dynamics. In finance, his work with Maureen O'Hara focuses on market microstructure and asset pricing. In networks, he works with colleagues in the Computer Science department on trading networks and network formation.\nProfessor Easley recently announced a new measure developed with Cornell colleague Maureen O’Hara and Marcos Lopez de Prado of Tudor Investment Corporation that may be useful in preventing a “flash crash” similar to what happened in May 2010 when the stock market briefly erased almost $1 trillion in value and plunged the Dow Jones Industrial Average into its biggest intraday fall ever. The new volume-synchronized probability of informed trading (VPIN) metric is based on the imbalance of trade relative to the total volume. It identifies flow toxicity, which has been the primary topic of Easley and O'Hara’s research over the last 20 years. \nProfessor Easley and Professor Jon Kleinberg, Computer Science at Cornell, recently co-authored Networks, Crowds and Markets: Reasoning About a Highly Connected World.  The book is based on the popular undergraduate course, Networks, which they developed at Cornell. It combines different scientific perspectives in its approach to understanding networks and behavior in networked environments. Drawing on ideas from economics, sociology, computing and information science, and applied mathematics, the book describes the emerging field of study that is growing at the interface of all these areas, addressing fundamental questions about how the social, economic, and technological worlds are connected.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Kleinberg's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel"
+                ]
+            },
+            "susan-fussell": {
+                "name": "Susan Fussell",
+                "subtitle": "Director of Graduate Studies",
+                "research_areas": [
+                    "HCI",
+                    "Human-Robot Interaction",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "sfussell@cornell.edu",
+                "website": "http://sfussell.hci.cornell.edu/index.shtml",
+                "img": "fussell.jpeg",
+                "about": "Susan Fussell is a Professor in the Department of Communication and the Department of Information Science at Cornell University. Her research focuses on interpersonal communication in face-to-face and computer-mediated contexts. Her goals are to enhance our theoretical understanding of the mechanisms involved in conversational discourse and to apply this theory to the design and evaluation of new communications technologies. Fussell's current research areas include intercultural computer-mediated communication, multi-lingual communication, tools to promote energy saving behavior, human-robot interaction, and collaborative intelligence analysis. With students and collaborators, she examines these issues within a variety of domains, using a combination of quantitative and qualitative research methods.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "paul-ginsparg": {
+                "name": "Paul Ginsparg",
+                "subtitle": "Professor, Physics and Information Science",
+                "research_areas": [
+                    "Data Science"
+                ],
+                "email": "ginsparg@cornell.edu",
+                "website": "http://www.physics.cornell.edu/professorspeople/professors/?page=website/faculty&action=show/id%3D17",
+                "img": "ginsparg.jpeg",
+                "about": "A.B., Physics, 1977, Harvard University.\nPh.D. Physics, 1981, Cornell University.\nHarvard Society of Fellows, 1981-84.\nAssistant Professor, Physics, Harvard University, 1984-1986.\nAssociate Professor, Physics, Harvard University, 1986-1990.\nTechnical Staff Member, Los Alamos National Laboratory, 1990-2001.\nProfessor, Physics and Information Science, Cornell University, 2001- present.\nVisiting appointments at: C.E.N. Saclay, France; Princeton University; Stanford Linear Accelerator Center; The Institute for Advanced Studies, Princeton; The Institute for Theoretical Physics at UC Santa Barbara; The Mathematical Science Research Institute at UC Berkeley; Hebrew University, Jerusalem.\nA.P. Sloane fellow, 1986-1990. DOE Outstanding Junior Investigator, 1986-91. Fellow, American Physical Society. MacArthur Fellow, 2002. Radcliffe Institute Fellow, 2008-2009.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "francois-guimbretiere": {
+                "name": "François Guimbretière",
+                "subtitle": "Professor, Information Science",
+                "research_areas": [
+                    "Human-Robot Interaction",
+                    "HCI",
+                    "Interface Design",
+                    "Ubiquitous Computing"
+                ],
+                "email": "fvg3@cornell.edu",
+                "website": "http://www.cs.cornell.edu/~francois/",
+                "img": "guimbretiere.jpeg",
+                "about": "François Guimbretière is a Professor in the Information Science Department at Cornell University. After completing an Electrical Engineering degree with a major in artificial intelligence at the Ecole Supérieure d’Electricité, in Gif-sur-Yvette, France, he went on to do MS and PhD degrees at Stanford in Computer Science. He came to Cornell in 2009.\nThe overarching goal of Dr. Guimbretière's research is to bring the ease of use of pen and paper interactions to computer interfaces. Pen and paper are an  extremely versatile tool used extensively by knowledge workers when sketching new concepts, exploring a design space by quickly sketching several variations, brainstorming during a meeting, or simply proofreading  documents.  Pen and paper interactions are rapid, fluid, and almost transparent to the user. Unfortunately, work captured on paper is often difficult to transfer back into the digital world where powerful computational resources are accessible. Through my work, I have demonstrated that the ease of use of pen and paper interactions and access  to digital resources  can be smoothly bridged. Blending hardware prototypes, software implementations, and empirical evaluation, I have proposed novel  pen interfaces for a wide variety of digital surfaces, including: large wall-sized displays such as the Stanford Interactive Mural; portable notepad-sized systems such as tablet PCs; and digital pens such as the Anoto system which can record and process strokes made on a special pre-printed paper. My work  establishes a  unified framework for pen computing  applicable to mixed paper-digital settings  as well as  a wide variety  of future  digital  interactive surfaces such as “digital wall paper” or electronic paper (e-paper), an area I have been exploring since I moved to Cornell. My work has been mostly supported by grants from the NSF (about $2.5M in total including a CAREER award), has been published in first tier ACM conferences and journals, and had a significant impact (my H-index is 19).",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "steve-jackson": {
+                "name": "Steve Jackson",
+                "subtitle": "Professor, Information Science & Science and Technology Studies",
+                "research_areas": [
+                    "Critical Data Studies",
+                    "Ethics, Law, & Policy",
+                    "HCI",
+                    "Infrastructure Studies",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work",
+                    "Technology & Equity"
+                ],
+                "email": "sjj54@cornell.edu",
+                "website": "http://sjackson.infosci.cornell.edu/",
+                "img": "jackson.jpeg",
+                "about": "Steve Jackson is a Professor of Information Science and Science and Technology Studies, with additional graduate field appointments in Communication and Public Affairs.  He’s also the former Chair of Information Science and Dean of William Keeton House.\nDr. Jackson teaches and conducts research in the areas of technology ethics, law and policy; maintenance, repair and sustainability; and technology, inequality and global development.  His work is shaped by ideas coming out of American pragmatism, critical theory, and science and technology studies, and methodological traditions coming out of sociology, anthropology, philosophy, history, media studies, and law, along with information science sub-fields like human-computer interaction and computer-supported cooperative work.  He’s especially interested in places where new computing infrastructures and practices meet the social and material world, with implications for collaboration, sustainability, development, inequality, and new (and old) cultural practices, including in music and art.  He’s also interested in places where new computing practices meet unsettled legal and ethical terrains, and the processes by which these uncertainties get reduced, codified and normalized.  His research with students and collaborators has been supported by the U.S. National Science Foundation (including an NSF CAREER award), the Social Science Research Council, Ford Foundation, Sloan Foundation, World Bank, Intel Research, Atkinson Center for Sustainability, and the Canadian Social Science and Humanities Research Council, and has received 6 best paper awards (and 12 honorable mentions) at leading venues in the computing and information science field.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Levy's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "aculty-meeting-ethics"
+                ]
+            },
+            "thorsten-joachims": {
+                "name": "Thorsten Joachims",
+                "subtitle": "Professor, Information Science & Computer Science",
+                "research_areas": [
+                    "Machine Learning",
+                    "Data Science",
+                    "Education Technology"
+                ],
+                "email": "tj@cs.cornell.edu",
+                "website": "http://www.cs.cornell.edu/People/tj/",
+                "img": "joachims.jpeg",
+                "about": "Thorsten Joachims is a Professor in the Department of Computer Science and in the Department of Information Science at Cornell University. He joined Cornell in 2001 after finishing his Ph. D. as a student of Prof. Morik at the AI-unit of the University of Dortmund, from where he also received a Diplom in Computer Science in 1997. Between 2000 and 2001 he worked as a PostDoc at the GMD in the Knowledge Discovery Team of the Institute for Autonomous Intelligent Systems. From 1994 to 1996 he spent one and a half years at Carnegie Mellon University as a visiting scholar of Prof. Tom Mitchell. Working with his students and collaborators, his papers won 7 Best Paper Awards and 3 Test-of-Time Awards. Thorsten Joachims is an ACM Fellow, AAAI Fellow, and Humboldt Fellow.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "wendy-ju": {
+                "name": "Wendy Ju",
+                "subtitle": "Associate Professor, Cornell Tech",
+                "research_areas": [
+                    "HCI",
+                    "Human-Robot Interaction",
+                    "Interface Design",
+                    "Ubiquitous Computing"
+                ],
+                "email": "wendyju@cornell.edu",
+                "website": "http://www.wendyju.com/",
+                "img": "ju.jpeg",
+                "about": "Dr. Wendy Ju is an Associate Professor at Cornell Tech in the Information Science program. Dr. Ju comes to Cornell Tech from the Center for Design Research at Stanford University, where she was Executive Director of Interaction Design Research, and from the California College of the Arts, where she was an  Associate Professor of Interaction Design in the Design MFA program. Her work in the areas of human-robot interaction and automated vehicle interfaces highlights the ways that interactive devices can communicate and engage people without interrupting or intruding. Dr. Ju has innovated numerous methods for early-stage prototyping of automated systems to understand how people will respond to systems before the systems are built. She has a PhD in Mechanical Engineering from Stanford, and a Master’s in Media Arts and Sciences from MIT. Her monograph on The Design of Implicit Interactions was published in 2015.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "rene-kizilcec": {
+                "name": "René Kizilcec",
+                "subtitle": "Director, Future of Learning Lab",
+                "interests": [
+                    "Computational Social Science",
+                    "Education Technology",
+                    "HCI",
+                    "Technology & Equity"
+                ],
+                "email": "kizilcec@cornell.edu",
+                "website": "https://rene.kizilcec.com/",
+                "img": "kizilcec.jpeg",
+                "about": "René Kizilcec is an Assistant Professor of Information Science in the Cornell Ann S. Bowers College of Computing and Information Science, where he directs the Future of Learning Lab. His research focuses on the impact of digital technologies in educational contexts, particularly questions of equality in online learning and social-psychological barriers to success, and scalable interventions to improve educational outcomes and reduce achievement gaps. Kizilcec is known for his research on understanding and supporting learners in open-scale courses such as Massive Open Online Courses, or MOOCs. He also works on developing methods for the design and analysis of experiments. His research has been published in Science, Proceedings of the National Academy of Sciences, Journal of Educational Psychology, Computers in Human Behavior, Computers & Education, and in the proceedings of leading human-computer interaction and education conferences; his work received multiple ACM Best Paper awards and competitive research fellowships.\nKizilcec received a BA in Philosophy and Economics from University College London, and an MSc in Statistics and PhD in Communication from Stanford, with a thesis on designing psychologically welcoming online learning environments, which was awarded the Nathan Maccoby Outstanding Dissertation Award. Prior to joining Cornell, he worked as a research scientist in Facebook's Core Data Science team, research director in the Stanford Graduate School of Education, and as research faculty at Arizona State University.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "malte-jung": {
+                "name": "Malte Jung",
+                "subtitle": "Leader, Robots in Groups Lab",
+                "research_areas": [
+                    "Human-Robot Interaction"
+                ],
+                "email": "mfj28@cornell.edu",
+                "website": "http://mjung.infosci.cornell.edu/",
+                "img": "jung.jpeg",
+                "about": "Malte Jung is an Associate Professor in Information Science at Cornell University and the Nancy H. ’62 and Philip M. ’62 Young Sesquicentennial Faculty Fellow. His research focuses on the intersections of teamwork, technology, and emotion. The goal of his research is to inform our basic understanding of technology supported teamwork as well as to inform how we design technology to support teamwork across a wide range of settings. He leads the Robots in Groups Lab, which seeks to contribute to our basic understanding of group dynamics and how group dynamics can be shaped by robots implicitly and by design.\nMalte Jung received his Ph.D. in Mechanical Engineering and his Ph.D. minor in Psychology from Stanford University. As part of his doctoral work, he demonstrated that the theory and methods originally developed to predict divorce in married couples could be adapted to predict the performance of engineering design teams. Prior to joining Cornell, Malte Jung completed a two year postdoc at the Center for Work, Technology, and Organization at Stanford University. He holds a Diploma in Mechanical Engineering from the Technical University of Munich and an M.S. degree in Mechanical Engineering from Stanford University.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "jon-kleinberg": {
+                "name": "Jon Kleinberg",
+                "subtitle": "Professor, Computer Science & Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Data Science",
+                    "Economics & Information",
+                    "Incentives & Computation",
+                    "Network Science"
+                ],
+                "email": "kleinber@cs.cornell.edu",
+                "website": "http://kleinberg.infosci.cornell.edu/",
+                "img": "kleinberg.jpeg",
+                "about": "Jon Kleinberg is a professor in both Computer Science and Information Science. His research focuses on issues at the interface of networks and information, with an emphasis on the social and information networks that underpin the Web and other on-line media. His work has been supported by an NSF Career Award, an ONR Young Investigator Award, a MacArthur Foundation Fellowship, a Packard Foundation Fellowship, a Sloan Foundation Fellowship, and grants from Google, Yahoo!, and the NSF. He is a member of the National Academy of Sciences, the National Academy of Engineering, and the American Academy of Arts and Sciences.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Kleinberg's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel"
+                ]
+            },
+            "allison-koenecke": {
+                "name": "Allison Koenecke",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Data Science",
+                    "Economics & Information",
+                    "Technology & Equity"
+                ],
+                "email": "akon345@cornell.edu",
+                "website": "https://koenecke.infosci.cornell.edu/",
+                "img": "koenecke.jpeg",
+                "about": "Allison Koenecke is an assistant professor of information science. Prior to her professorship at Cornell, she was a postdoc at Microsoft Research New England in the Machine Learning and Statistics group. Her research interests lie broadly at the intersection of economics and computer science, and her projects focus on fairness in algorithmic systems and causal inference in public health. She received a Ph.D. from the Stanford Institute for Computational & Mathematical Engineering.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "gilly-leshed": {
+                "name": "Gilly Leshed",
+                "subtitle": "Senior Lecturer, Information Science",
+                "research_areas": [
+                    "HCI",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "gl87@cornell.edu",
+                "website": "http://leshed.infosci.cornell.edu/",
+                "img": "leshed.jpeg",
+                "about": "Gilly Leshed is a Senior Lecturer in the Department of Information Science at Cornell University. Her research and teaching interests are in Human-Computer Interaction (HCI) and Computer-Supported Cooperative Work (CSCW). She also serves as the Director of the MPS program in Information Science.\nDr. Leshed received her PhD at Cornell in Information Science in 2009. Her Bachelor's and Master's degrees are from the Technion - Israel Institution of Technology in Industrial Engineering and Information Management Engineering, respectively. She also worked several years in the industry as an HCI expert for commercial flight-deck avionics system and command and control systems for military purposes.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "karen-levy": {
+                "name": "Karen Levy",
+                "subtitle": "Associate Professor, Information Science",
+                "research_areas": [
+                    "Critical Data Studies",
+                    "Ethics, Law, & Policy",
+                    "Technology & Equity"
+                ],
+                "email": "karen.levy@cornell.edu",
+                "website": "http://www.karen-levy.net/",
+                "img": "levy.jpeg",
+                "about": "Karen Levy is an associate professor in the Department of Information Science at Cornell University, and associate member of the faculty of Cornell Law School. She researches how law and technology interact to regulate social life, with particular focus on social and organizational aspects of surveillance. Much of Dr. Levy's research analyzes the uses of monitoring for social control in various contexts, from long-haul trucking to intimate relationships. She is also interested in how data collection uniquely impacts, and is contested by, marginalized populations.\nDr. Levy is also a fellow at the Data and Society Research Institute in New York City. She holds a Ph.D. in Sociology from Princeton University and a J.D. from Indiana University Maurer School of Law. Dr. Levy previously served as a law clerk in the United States Federal Courts.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Levy's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "aculty-meeting-ethics"
+                ]
+            },
+            "ian-lundberg": {
+                "name": "Ian Lundberg",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Data Science"
+                ],
+                "email": "ilundberg@cornell.edu",
+                "website": "https://www.ianlundberg.org/",
+                "img": "lundberg.jpeg",
+                "about": "Ian Lundberg is an assistant professor of information science. His research develops statistical and machine learning methods to answer questions about inequality in America. Substantively, his interests focus on inequality, poverty, and economic mobility. Methodologically, Ian's work answers these questions by developing tools at the intersection of computational social science and causal inference. Ian received a PhD in sociology and social policy from Princeton University. For the most recent information on Ian's work, see his webpage.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "michael-macy": {
+                "name": "Michael Macy",
+                "subtitle": "Director, Social Dynamics Lab",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Natural Language Processing",
+                    "Network Science",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "mwm14@cornell.edu",
+                "website": "https://sites.google.com/site/michaelmacy14/welcome-to-michael-macys-website?authuser=0",
+                "img": "macy.jpeg",
+                "about": "Michael Macy received his B.A. and Ph.D at Harvard, along with an M.A. from Stanford. He is currently Goldwin Smith Professor of Arts and Sciences in Sociology and Director of the Social Dynamics Laboratory at Cornell, where he has worked since 1997.\nWith major support from the National Science Foundation, his research team has used computational models, online laboratory experiments, and digital traces of device-mediated interaction to explore familiar but enigmatic social patterns, such as circadian rhythms, the emergence and collapse of fads, the spread of self-destructive behaviors, cooperation in social dilemmas, the critical mass in collective action, the spread of high-threshold contagions on small-world networks, the polarization of opinion, segregation of neighborhoods, and assimilation of minority cultures. His team has used data from Twitter and Spotify to track diurnal and seasonal mood changes across the globe, national telephone logs to measure the economic correlates of network structure, and both social media and phone logs to reveal social wormholes that create high-bandwidth connections across vast network distances.\nRecent research has focused on political polarization, including a study on why liberals drink lattes and how polarization extends even to the consumption of books on popular science. His team’s research has been published in leading journals, including Science, PNAS, Nature Human Behaviour, Science Advances, American Journal of Sociology, American Sociological Review, and Annual Review of Sociology.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "david-mimno": {
+                "name": "David Mimno",
+                "subtitle": "Professor, Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Natural Language Processing"
+                ],
+                "email": "dm655@cornell.edu",
+                "website": "https://mimno.infosci.cornell.edu/",
+                "img": "mimno.jpeg",
+                "about": "David Mimno joined the Information Science department at Cornell University in the Fall of 2013. Prior to that, he was a postdoctoral researcher with David Blei at Princeton. He received his PhD from the University of Massachusetts Amherst, with Andrew McCallum. He tweets @dmimno.\nBefore UMass, David Mimno worked for an internet auction startup, the NLP group at the University of Sheffield, and the Perseus Project, a cultural heritage digital library. He has a particular interest in historical texts and languages.\nDavid Mimno is currently chief maintainer for the MALLET Machine Learning toolkit. He organized the NorthEast Student Colloquium on Artificial Intelligence (NESCAI) at UMass in 2010 along with Sameer Singh. He ran the UMass Machine Learning and Friends lunch series for two years, and organized the Princeton Machine Learning lunch series.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "mor-naaman": {
+                "name": "Mor Naaman",
+                "subtitle": "Professor, Cornell Tech",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Data Science",
+                    "HCI",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "mor.naaman@cornell.edu",
+                "website": "https://people.jacobs.cornell.edu/mor/",
+                "img": "naaman.jpeg",
+                "about": "Mor Naaman is a professor of Information Science at the Jacobs Technion-Cornell Institute at Cornell Tech, where he is the founder of the Connective Media hub, and leads a research group focused on social technologies.\nHis research applies multidisciplinary methods to 1) gain a better understanding of people and their use of social tech; 2) extract insights about people, technology and society from social media and other sources of social data, and 3) develop new social technologies as well as novel tools to make social data more accessible and usable in various settings.\nPreviously, Mor was on the faculty at Rutgers SC&I, led a research team at Yahoo! Research Berkeley, received a Ph.D. in Computer Science from Stanford University, and played professional basketball for Hapoel Tel Aviv. He is a recipient of a NSF Early Faculty CAREER Award, research awards and grants from numerous corporations including AOL and Google, and multiple best paper awards.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "rajalakshmi-nandakumar": {
+                "name": "Rajalakshmi Nandakumar",
+                "subtitle": "Assistant Professor, Cornell Tech",
+                "research_areas": [
+                    "Data Science",
+                    "HCI",
+                    "Interface Design",
+                    "Ubiquitous Computing"
+                ],
+                "email": "rkl45@cornell.edu",
+                "website": "https://infosci.cornell.edu/~rajalakshmi/",
+                "img": "nandakumar.jpeg",
+                "about": "Rajalakshmi Nandakumar, Ph.D., is an Assistant Professor at the Jacobs Technion-Cornell Institute at Cornell Tech. She attended the University of Washington’s Paul G. Allen School of Computer Science and Engineering, where she received a Ph.D. She develops computing technologies across various domains including mobile health, user interfaces, and the Internet of Things, such as a sleep apnea detection application that has been deployed worldwide.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "helen-nissenbaum": {
+                "name": "Helen Nissenbaum",
+                "subtitle": "Professor, Cornell Tech",
+                "research_areas": [
+                    "Critical Data Studies",
+                    "Data Science",
+                    "Ethics, Law, & Policy",
+                    "HCI",
+                    "Human-Robot Interaction",
+                    "Technology & Equity"
+                ],
+                "email": "hn288@cornell.edu",
+                "website": "https://infosci.cornell.edu/~nissenbaum/",
+                "img": "nissenbaum.jpg",
+                "about": "Helen Nissenbaum is Professor of Information Science at Cornell Tech. Her research takes an ethical perspectives on policy, law, science, and engineering relating to information technology, computing, digital media and data science. Topics have included privacy, trust, accountability, security, and values in technology design. Her books include Obfuscation: A User's Guide for Privacy and Protest, with Finn Brunton (MIT Press, 2015) and Privacy in Context: Technology, Policy, and the Integrity of Social Life (Stanford, 2010).\nGrants from the NSF, AFOSR, and the U.S. DHHS-ONC have supported her work. Recipient of the 2014 Barwise Prize of the American Philosophical Association, Nissenbaum has contributed to privacy-enhancing software, including TrackMeNot and AdNauseam.\nNissenbaum holds a Ph.D. in philosophy from Stanford University and a B.A. (Hons) in philosophy and mathematics from the University of the Witwatersrand, South Africa.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "tapan-parikh": {
+                "name": "Tapan Parikh",
+                "subtitle": "Associate Professor, Cornell Tech",
+                "research_areas": [
+                    "Critical Data Studies",
+                    "Data Science",
+                    "Education Technology",
+                    "HCI",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "tsp53@cornell.edu",
+                "website": "https://infosci.cornell.edu/~parikh/",
+                "img": "parikh.jpeg",
+                "about": "Tapan is an associate professor at Cornell Tech. His research includes HCI and the design and evaluation of information technologies for education, governance and international development. Tapan’s students have started several tech companies based on his research and teaching. He holds a Sc.B. degree in Molecular Modeling with Honors from Brown University and M.S. and Ph.D. degrees in Computer Science from the University of Washington, where his dissertation won the William Chan Memorial award. Tapan has received the NSF CAREER award, a Sloan Fellowship and was named TR35 Humanitarian of the Year.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "thijs-roumen": {
+                "name": "Thijs Roumen",
+                "subtitle": "Director, Matter of Tech Lab",
+                "research_areas": [
+                    "HCI"
+                ],
+                "email": "tjr92@cornell.edu",
+                "website": "http://www.matteroftechlab.org/",
+                "img": "roumen.jpeg",
+                "about": "Thijs Roumen is an assistant professor of information science at Cornell Tech, where he directs the Matter of Tech lab. His lab focuses on digital fabrication, a sub-field of technical human-computer interaction (HCI). Their goal is to enable personal fabrication, e.g., to make digital fabrication relevant to everyone as opposed to the industrialists and hobbyists who currently use fabrication machines. This requires the field to pivot by inventing new fabrication machines, design tools, interfaces for different groups of users, application contexts, mechanical education curricula, and more. During his Ph.D., Thijs focused on creating models for laser cutting that are machine-independent, and allow users to reproduce content shared online, and build on the work of others (aka portability). In the wake of this he implemented a suite of software systems and tools that together allowed high-school students to design and build fully functional western guitars using laser cutting, a small step towards this bigger goal. His work is published at top-tier conferences in HCI (ACM CHI and UIST).\nPreviously, Thijs was a Ph.D. student with Patrick Baudisch at the Hasso Plattner Institute, Germany. He worked as research assistant with Shengdong Zhao at the National University of Singapore. He holds a MSc in IT Product Design from the University of Southern Denmark and a BSc in Industrial Design from Eindhoven University of Technology, Netherlands.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "jeff-rzeszotarski": {
+                "name": "Jeff Rzeszotarski",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "Data Science",
+                    "HCI",
+                    "Network Science",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "jmr395@cornell.edu",
+                "website": "https://sites.google.com/site/michaelmacy14/welcome-to-michael-macys-website?authuser=0",
+                "img": "rzeszotarski.jpeg",
+                "about": "Jeff Rzeszotarski joined Information Science in July 2017 as an assistant professor after completing his PhD in the Human-Computer Interaction Institute at Carnegie Mellon University. His research melds computer science, social psychology and cognitive science in order to improve the ways people understand complex data and collaborate online.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "phoebe-sengers": {
+                "name": "Phoebe Sengers",
+                "subtitle": "Professor, Information Science and Science & Technology Studies",
+                "research_areas": [
+                    "Critical Data Studies",
+                    "HCI",
+                    "Infrastructure Studies",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work",
+                    "Technology & Equity"
+                ],
+                "email": "sengers@cs.cornell.edu",
+                "website": "http://www.cs.cornell.edu/people/sengers/",
+                "img": "sengers.jpeg",
+                "about": "Phoebe Sengers is a professor in Information Science and Science & Technology Studies at Cornell University. Her primary research fields are Human-Computer Interaction (HCI) and Science & Technology Studies (STS). Her work integrates ethnographic and historical analysis of the social implications of technology with design methods to suggest alternative future possibilities. At Cornell, she leads the Culturally Embedded Computing research group. Her group explores rural, working-class and global South experiences of technologies, traces the emerging entanglements between people and data, and uses design to speculate about alternative pasts and futures.\nIn addition to her primary appointments, she is a member of the Graduate Field of Computer Science, associate faculty with the Department of Art, and a member of the Cornell Initiative for Digital Agriculture. She led the Cornell campus of the Intel Science & Technology Center for Social Computing, has been a Fulbright Fellow, a Fellow in the Cornell Society for the Humanities, and a Public Voices Fellow, and received an NSF CAREER award. She holds an interdisciplinary PhD in Artificial Intelligence and Cultural Theory from Carnegie Mellon University.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "benjamin-soltoff": {
+                "name": "Benjamin Soltoff",
+                "subtitle": "Lecturer, Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Data Science",
+                    "Technology & Equity"
+                ],
+                "email": "bs98@cornell.edu",
+                "website": "https://www.bensoltoff.com/",
+                "img": "soltoff.jpeg",
+                "about": "Benjamin Soltoff is Lecturer in Information Science at Cornell University. He teaches courses on data science, research design, data communication, and web design, and enjoys working with individuals from all backgrounds interested in applying computational methods to extract knowledge and inferences from a wide-range of domains.\nAs a graduate student Benjamin’s research focused on state judicial politics and utilized machine learning and text analysis to analyze agenda-setting behavior on state courts of last resort, including judicial selection/retention, institutional structure, and case selection under discretionary jurisdiction. After completing his PhD, he moved to the University of Chicago where he co-developed the Masters in Computational Social Science. During his time at the University of Chicago he taught courses in social scientific research design, computational modeling, data science, math/statistics, and data visualization, as well as serving as Associate Director of the masters program.\nBenjamin earned his MA and PhD in political science from The Pennsylvania State University with concentrations in American government, political methodology, and law and courts, and a BA in political science from James Madison University.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "angelique-taylor": {
+                "name": "Angelique Taylor",
+                "subtitle": "Assistant Professor, Cornell Tech",
+                "research_areas": [
+                    "Human-Robot Interaction",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work"
+                ],
+                "email": "amt298@cornell.edu",
+                "website": "https://www.angeliquemtaylor.com/",
+                "img": "taylor.jpeg",
+                "about": "Angelique Taylor is a Cornell Tech-based assistant professor of information science. Her research lies at the intersection of computer vision, robotics, and health informatics. She develops systems that enable robots to interact and work with groups of people in safety-critical environments. She received a Ph.D. in Computer Science and Engineering from the UC San Diego.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "aditya-vashistha": {
+                "name": "Aditya Vashistha",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "HCI",
+                    "Social Computing",
+                    "Computer Supported Cooperative Work",
+                    "Technology & Equity"
+                ],
+                "email": "adityav@cornell.edu",
+                "website": "https://www.adityavashistha.com/",
+                "img": "vashistha.jpeg",
+                "about": "Aditya Vashistha is an Assistant Professor of Information Science at Cornell University. His research focuses on building appropriate computing systems to achieve social good of people in low-resource environments. More broadly, his work lies at the intersection of Human-Computer Interaction (HCI), ICT & Development (ICTD), and Accessibility. He completed a Ph.D. in Computer Science and Engineering at the University of Washington. His research has been recognized in the form of Facebook Access Innovation Prize, USAID Seed Grant, Facebook Graduate Fellowship, as well as best paper awards at premier HCI venues. His research has transitioned into large-scale, real-world products that have reached an estimated 220,000 people in Africa and South Asia.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "gili-vidan": {
+                "name": "Gili Vidan",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "Incentives & Computation"
+                ],
+                "email": "gv232@cornell.edu",
+                "website": "https://www.gili-vidan.com/",
+                "img": "vidan.png",
+                "about": "Gili Vidan is an assistant professor in the Department of Information Science at the Cornell Bowers College of Computing and Information Science. She is a historian of information technology and Science and Technology Studies (STS) researcher. Her work examines how trust is established both in digital technologies and through digital mediation and how notions of authenticity, knowability, and good governance are implicated in the making of new digital objects. Her book project, “Technologies of Trust,” traces technical attempts to solve the problems of trust and authentication in late 20th- and early 21st-century US.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Levy's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "aculty-meeting-ethics"
+                ]
+            },
+            "matthew-wilkins": {
+                "name": "Matthew Wilkins",
+                "subtitle": "Director, Textual Geographies Project",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Natural Language Processing",
+                    "Critical Data Studies",
+                    "Data Science"
+                ],
+                "email": "wilkens@cornell.edu",
+                "website": "https://mattwilkens.com/",
+                "img": "wilkins.jpeg",
+                "about": "Matthew Wilkens is associate professor of information science. He uses quantitative and computational methods to study large-scale developments in literary and cultural history. His work has focused in particular on literary text mining, geolocation extraction, genre detection, and the cross-pollination of critical and social-scientific methods. He is the director of the Textual Geographies project, a co-investigator of the Text Mining the Novel project, a founding editorial board member of the Journal of Cultural Analytics, and the author of Revolution: The Event in Postwar Fiction.\nPrior to arriving at Cornell, Wilkens taught at the University of Notre Dame, where he was Ruth and Paul Idzik Associate Professor in Digital Scholarship, and at Wayne State University. He received his PhD in Literature from Duke University, master's degrees in English from the University of Wisconsin-Madison and in physical chemistry from the University of California-Berkeley, and a bachelor's degree in chemistry and philosophy from the College of William and Mary.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "david-williamson": {
+                "name": "David Williamson",
+                "subtitle": "Department Chair",
+                "research_areas": [
+                    "Economics & Information",
+                    "Network Science"
+                ],
+                "email": "dpw@cs.cornell.edu",
+                "website": "http://www.davidpwilliamson.net/work",
+                "img": "williamson.jpeg",
+                "about": "Dr. Williamson is well-known for his work on the topic of approximation algorithms, and is a coauthor of the book 'The Design of Approximation Algorithms', published by Cambridge University Press. His Ph.D. dissertation on designing low-cost survivable networks was awarded several prizes, including the 1996 SIAM DiPrima Prize and the 1994 Tucker Prize from the Mathematical Programming Society. His work with Michel Goemans on the uses of semidefinite programming in approximation algorithms was awarded the 1999 SIAM Activity Group on Optimization prize, and the 2000 Fulkerson Prize from the Mathematical Programming Society and the American Mathematical Society. He is the editor-in-chief for the SIAM Journal on Discrete Mathematics, and has served as an associate editor on several other journals, including Mathematics of Operations Research and the SIAM Journal on Computing.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Kleinberg's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel"
+                ]
+            },
+            "qian-yang": {
+                "name": "Qian Yang",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "Data Science",
+                    "HCI",
+                    "Interface Design",
+                    "Ubiquitous Computing"
+                ],
+                "email": "qianyang@cornell.edu",
+                "website": "https://qianyang.co/",
+                "img": "yang.jpeg",
+                "about": "Qian Yang is an assistant professor in information science. As a human-AI interaction researcher, she helps translate AI's algorithmic advances into valuable real-world applications that serve human ends. Yang has so far designed several high-consequence AI applications: from decision support systems for life-and-death healthcare decisions (i.e. artificial heart implants and cancer diagnoses) to context-aware mobile services, from Natural Language Generation systems to autonomous cars. Building upon this related vein of practice, she works to inform a basic understanding of AI as a material for HCI design. In addition, she innovates methods and tools for the UX design and HCI practicing communities, helping them to better integrate AI into their day-to-day practices.\nYang completed her PhD in human-computer Interaction at Carnegie Mellon's School of Computer Science. She holds master's degrees in HCI from Carnegie Mellon University and in Design and Bachelor of Engineering in Industrial Design from Shanghai Jiaotong University. Before CMU, she worked in design consultancy and in the industry (2007-2014).",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "yian-yin": {
+                "name": "Yian Yin",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "Computational Social Science",
+                    "Data Science",
+                    "Incentives & Computation",
+                    "Network Science"
+                ],
+                "email": "yy994@cornell.edu",
+                "website": "http://www.yianyin.net/",
+                "img": "yin.png",
+                "about": "Yian Yin is an assistant professor of information science at Cornell University, arriving 2023. His research applies and develops novel computational tools to understand how individual, social, and environmental processes independently and jointly promote (or inhibit) scientific progress and innovation achievements. As a computational social scientist, he has also used science and innovation as a powerful lens to examine broader processes and outcomes in a wide range of complex social processes, from artistic and cultural productions to public policy, from media attention to market competition to human conflict. His research has been published in top general audience venues such as Science, Nature, and Nature Human Behaviour and featured in media outlets such as Forbes, Scientific American, The Atlantic, Harvard Business Review, and MIT Technology Review.\nYian received his Ph.D. in Industrial Engineering and Management Science at Northwestern University, with research affiliations at Northwestern Institute on Complex Systems and Kellogg Center for Science of Science and Innovation. He holds bachelor's degrees in Statistics and Economics from Peking University.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Mimno's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical"
+                ]
+            },
+            "cheng-zhang": {
+                "name": "Cheng Zhang",
+                "subtitle": "Assistant Professor, Information Science",
+                "research_areas": [
+                    "HCI",
+                    "Interface Design",
+                    "Ubiquitous Computing"
+                ],
+                "email": "cz448@cornell.edu",
+                "website": "http://www.czhang.org/",
+                "img": "zhang.jpeg",
+                "about": "Cheng Zhang is an Assistant Professor in Information Science at Cornell University. His research examines how to solicit information on and around the human body to address real-world challenges in various application areas, such as interaction, health sensing, and activity recognition. He usually builds novel sensing systems from the bottom to the top, including understanding the physical phenomenon, building hardware prototypes, designing form factors, processing data, and designing algorithms (machine learning or physics-based modeling). His work has resulted in over a dozen publications in top-tier conferences and journals in the field of Human-Computer Interaction and Ubiquitous Computing (including two best paper awards), as well as over 8 pending U.S. and international patents. His work also has attracted the attention of various media outlets, including ScienceDaily, DigitalTrends, ZDNet, New Scientist, RT, TechRadar, Phys.org, Yahoo News, Business Insider, and MSN News.\nDr. Zhang received his Ph.D. in computer science at Ubicomp Lab at Georgia Institute of Technology, where he worked with Dr. Gregory Abowd (CS) and Dr.Omer Inan (ECE). Before coming to Georgia Tech, he received his bachelor’s degree in software engineering from Nankai University and his master’s degree from the Institute of Software at the Chinese Academy of Sciences as an outstanding graduate, where he started doing HCI research.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            }
+        },
+        "students": {
+            "rama-adithya": {
+                "name": "Rama Adithya",
+                "subtitle": "Detroit, Michigan",
+                "phone_number": "(408)345-0956",
+                "email": "ramaad@gmail.com",
+                "website": "https://merama.github.io/",
+                "instagram": "@rama_ad",
+                "linkedin": "https://www.linkedin.com/in/ramaadithya/",
+                "research_interests": [
+                    "HCI",
+                    "Education Technology"
+                ],
+                "img": "rama.jpg",
+                "about": "Hello! My primary interests lie in the areas of education and development contexts (ICT4D). In particular, I try to understand ways in which various communities use technologies for achieving their goals and design impactful solutions.\nPreviously, I had the opportunity to work with Dr. John M. Carroll and Dr. Marcela Borge as a master's student. Prior to that, I worked as a user experience designer at Standard & Poor's.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Lab Visit"
+                ]
+            },
+            "samantha-lee": {
+                "name": "Samantha Lee",
+                "subtitle": "Phoenix, Arizona",
+                "phone_number": "(342)567-0012",
+                "email": "samanthaalee@hotmail.com",
+                "website": "https://samantha-lee.com/",
+                "instagram": "@samlee",
+                "linkedin": "https://www.linkedin.com/in/samantha-lee/",
+                "research_interests": [
+                    "Social Computing",
+                    "Network Science"
+                ],
+                "img": "samantha.jpg",
+                "about": "Hi there! I completed my BA in English Literature at Middlebury College. Then I pursued my Master's degree in Library and Information Science AT Stanford. During my Master's program, I gained valuable experience as a research assistant and conducted several independent research projects related to information literacy and digital archives.\nMy research interests lie at the intersection of digital humanities, information literacy, and digital archives. My Master's thesis focused on the use of social media platforms for community engagement in digital archives. For my PhD, I aspire to expand my research to explore the impact of technology on library services and user behavior.",
+                "events": [
+                    "Welcome Address",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "michael-hernandez": {
+                "name": "Ricardo Gonzalez",
+                "subtitle": "Medellín, Colombia",
+                "phone_number": "(325)238-4078",
+                "email": "ricardolez@gmail.com",
+                "website": "https://ricardolez.com/",
+                "instagram": "@riclezz",
+                "linkedin": "https://www.linkedin.com/in/ricardolezz/",
+                "research_interests": [
+                    "Social Computing",
+                    "Accessibility",
+                    "Ethics, Law, & Policy"
+                ],
+                "img": "michael.jpg",
+                "about": "my main focus in research is Accessibility. In the future I would like to have the opportunity to dig deeper into the nuances of marginalization and difficulties created by technology, and how to overturn these negative aspects into opportunities for low income and marginalized populations. I did my Bachelor's degree in Universidad de Los Andes, Colombia in Computer and Systems Engineering. My two role models and mentors were Prof. Jose Tiberio Hernandez and Prof. John Guerra.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Kleinberg's Office Hours",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "dan-adler": {
+                "name": "Dan Adler",
+                "subtitle": "San Francisco, California",
+                "phone_number": "(523)908-4078",
+                "email": "dadler@gmail.com",
+                "website": "https://d-adler.com/",
+                "instagram": "@dan_adler",
+                "linkedin": "https://www.linkedin.com/in/danadler/",
+                "research_interests": [
+                    "Machine Learning",
+                    "Health Technology",
+                    "HCI",
+                    "Ubiquitous Computing"
+                ],
+                "img": "dan.jpg",
+                "about": "My research interests lie at the intersection of mental health and information science. I am particularly interested in how technology can be used to promote mental health and well-being, and how information science can contribute to the design and implementation of effective mental health interventions. My Master's thesis focused on the development of a mobile app for promoting stress management and mindfulness among college students.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Kleinberg's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "liam-albright": {
+                "name": "Liam Albright",
+                "subtitle": "Portland, Oregon",
+                "phone_number": "(607)323-4920",
+                "email": "liamalbright@icloud.com",
+                "website": "https://liam-albright.com/",
+                "instagram": "@albright",
+                "linkedin": "https://www.linkedin.com/in/liamalbright/",
+                "research_interests": [
+                    "HCI",
+                    "Computational Social Science",
+                    "Technology & Equity"
+                ],
+                "img": "liam.jpg",
+                "about": "My research interests lie at the intersection of information science and social impact. I am particularly interested in how technology can be used to address the challenges faced by low-income and at-risk communities, including access to education, healthcare, and financial services. My Master's thesis focused on the development of a mobile app for financial education and literacy for low-income families.\nI hope to use my PhD program to deepen my knowledge of the challenges faced by low-income and at-risk communities, and to explore new ways to use technology for social impact. I am particularly interested in collaborating with other scholars in the field to develop practical and effective strategies for creating technology solutions that are accessible and responsive to the needs of these communities. After completing my PhD, I plan to continue working in the field of technology for social impact, either as a researcher or as a practitioner.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "student-panel",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "marianne-auben": {
+                "name": "Marianne Auben Le Quere",
+                "subtitle": "Avignon, France",
+                "phone_number": "(607)323-4920",
+                "email": "mariannealq@gmail.com",
+                "website": "https://marianne-quere.com/",
+                "instagram": "@mariannealq",
+                "linkedin": "https://www.linkedin.com/in/mariannelequere/",
+                "research_interests": [
+                    "HCI",
+                    "Human-Robot Interaction",
+                    "Data Science"
+                ],
+                "img": "marianne.jpg",
+                "about": "I am interested in analyzing and quantifying the impact of technology on news media, and evaluating any ensuing democratic repercussions. In undergrad, I studied Computer Science and Non-Fiction Writing at Brown University. I previously conducted research in the fields of Crowdsourcing, Robotics, and Human-Computer Interaction at Brown University and the University of Washington. Most recently, I worked as a Product Manager at Microsoft Advertising.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Levy's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "federica-bologna": {
+                "name": "Federica Bologna",
+                "subtitle": "Bologna, Italy",
+                "phone_number": "(607)323-4920",
+                "email": "fedbolog@gmail.com",
+                "website": "https://federica-b.com/",
+                "instagram": "@federicabologna",
+                "linkedin": "https://www.linkedin.com/in/federica-bologna/",
+                "research_interests": [
+                    "Natural Language Processing",
+                    "Computational Social Science"
+                ],
+                "img": "federica.jpg",
+                "about": "Hi I'm Federica and I want to focus on Natural Language Processing, Cultural Analytics and Computational Social Science. I am interested in studying cultural and social issues by combining computational text analysis and quantitative methods with humanistic knowledge. I received an undergrad degree in Foreign Languages and Literatures and a Master's degree in Modern, Post-colonial and Comparative Literature at the University of Bologna, Italy.",
+                "events": [
+                    "Welcome Address",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Lab Visit"
+                ]
+            },
+            "alexandra-bremers": {
+                "name": "Alexandara Bremers",
+                "subtitle": "Sugarland, Texas",
+                "phone_number": "(607)323-4920",
+                "email": "alexbremers@gmail.com",
+                "website": "https://alexandrabrem.com/",
+                "instagram": "@alexandrabremers",
+                "linkedin": "https://www.linkedin.com/in/awdb/",
+                "research_interests": [
+                    "HCI"
+                ],
+                "img": "alexandra.jpg",
+                "about": "Alexandra holds degrees from Eindhoven University of Technology and Utrecht University in Industrial Design and Artificial Intelligence. Recently, she worked as a research engineer at Jaguar Land Rover. ",
+                "events": [
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "anthonia-carter": {
+                "name": "Anthonia Carter",
+                "subtitle": "Redwood City, California",
+                "phone_number": "(615)323-4920",
+                "email": "anthoniacarter@gmail.com",
+                "website": "https://anthoniacarter.com/",
+                "instagram": "@acarter",
+                "linkedin": "https://www.linkedin.com/in/act/",
+                "research_interests": [
+                    "HCI",
+                    "Technology & Equity",
+                    "Machine Learning"
+                ],
+                "img": "anthonia.jpg",
+                "about": "Hi there! I'm exploring research opportunities at the intersection of human-centered design, fairness, and machine learning. In 2017, I was awarded a Fulbright scholarship to pursue a master’s degree in Multidisciplinary Innovation at Northumbria University in the United Kingdom. There, she used a design-led approach to help enterprises realize innovation opportunities. With a background in mathematics, fine art, and design, she utilizes skills from diverse disciplines to redefine problems outside normal boundaries and to develop innovative solutions. ",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Lab Visit"
+                ]
+            },
+            "janet-chen": {
+                "name": "Janet Chen",
+                "subtitle": "Toronto, Canada",
+                "phone_number": "(615)323-4920",
+                "email": "jchen@gmail.com",
+                "website": "https://janet-chen.com/",
+                "instagram": "@jchen",
+                "linkedin": "https://www.linkedin.com/in/jchenn/",
+                "research_interests": [
+                    "HCI",
+                    "Artifical Intelligence"
+                ],
+                "img": "janet.jpg",
+                "about": "I hope to research human-computer interaction and design. In the past I have studied intimate data, trauma-informed design, and data after death. I received my undergraduate degree in Computer Science and Economics at the University of British Columbia.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "madiha-chokski": {
+                "name": "Madiha Zahra Chokski",
+                "subtitle": "Toronto, Canada",
+                "phone_number": "(615)323-4920",
+                "email": "madihazchokski@gmail.com",
+                "website": "https://mzchokski.com/",
+                "instagram": "@mchok",
+                "linkedin": "https://www.linkedin.com/in/mzchokski/",
+                "research_interests": [
+                    "Ethics, Law, & Policy",
+                    "Social Computing"
+                ],
+                "img": "madiha.jpg",
+                "about": "I want my research to focus on the intersection of technology, law, and privacy. More specifically, the sociological implications of mass-surveillance on user privacy, trust, and agency, and the interconnected relationship between privacy and human rights. I completed a Master of Information from the University of Toronto and a Master of Arts from Columbia University.",
+                "events": [
+                    "Welcome Address",
+                    "Professor Jung's Office Hours",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Botanical Gardens Tour",
+                    "Chat with the Dean",
+                    "Lab Visit"
+                ]
+            },
+            "fernando-delgado": {
+                "name": "Fernando Delgado",
+                "subtitle": "San Juan, Puerto Rico",
+                "phone_number": "(615)323-4920",
+                "email": "fdelgado@gmail.com",
+                "website": "https://fdelgado.com/",
+                "instagram": "@fernandodelgado",
+                "linkedin": "https://www.linkedin.com/in/fdd/",
+                "research_interests": [
+                    "HCI",
+                    "Ethics, Law, & Policy",
+                    "Artifical Intelligence"
+                ],
+                "img": "fernando.jpg",
+                "about": "I am interested in researching the adoption of AI technologies and their impact on expertise and accountability in traditionally high-skilled work. I also want to research investigating and refining governance models for emerging AI technologies as well as requirements engineering methodologies for machine learning application.\nFor the last few years, I've worked in in the field of legal technology designing applied machine learning systems for legal review and analysis in premerger compliance, pretrial discovery for civil litigation, and white collar crime investigations.",
+                "events": [
+                    "Welcome Address",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel"
+                ]
+            },
+            "jack-dorsey": {
+                "name": "Jack Dorsey",
+                "subtitle": "San Francisco, California",
+                "research_interests": [
+                    "Data Science",
+                    "Technology & Equity"
+                ],
+                "email": "jack@mit.edu",
+                "phone_number": "6179824013",
+                "website": "https://jackdorsey.com/",
+                "linkedin": "https://www.linkedin.com/in/jack-/",
+                "img": "jack.jpg",
+                "instagram": "@jack",
+                "ismain": true,
+                "about":"I am interested in researching equity and social issues regarding technology access amongst young students through statistics and data science methods. I particularly want to focus on the start of the COVID-19 pandemic when tech equity issues became more apparent. I previously received a BS in Education Science from the University of California, San Diego, and I completed my Master's program in Statistics at Stanford University.",
+                "events": [
+                    "Welcome Address",
+                    "Broadening Participation Lunch",
+                    "PhD Student Panel",
+                    "Chat with the Dean"
+                ]
+            }
+        }
+    }
